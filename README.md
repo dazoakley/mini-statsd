@@ -3,6 +3,8 @@
 A docker image running [Mini-StatsD] - a simple development tool showing you
 the messages your app(s) are pumping into StatsD.
 
+https://hub.docker.com/r/dazoakley/mini-statsd/
+
 ## Usage
 
 ```
