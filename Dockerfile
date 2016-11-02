@@ -8,4 +8,4 @@ RUN rm -rf /var/cache/apk/*
 RUN gem install mini_statsd --no-rdoc --no-ri
 
 EXPOSE 8125
-CMD ["mini_statsd", "8125"]
+CMD ["mini_statsd", "8125", "0.0.0.0"]
